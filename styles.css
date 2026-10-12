@@ -54,15 +54,28 @@ p{
     flex-direction: column;
     gap: 10px;
 }
-.wifi, .bluetooth{
+.wifi, .bluetooth, .network{
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 .sec-wifi, .bluetooth-sec{
     display: flex;
     align-items: flex-end;
-    gap: 150px; 
+    gap: 145px; 
 }
 .bluetooth-sec{
     gap: 120px;
+}
+.icons{
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+}
+.icons#network{
+    background-color: #B7B7B7;
+}
+.icons#bluetooth, .icons#wifi{
+    background-color: rgb(87, 140, 255);
 }
