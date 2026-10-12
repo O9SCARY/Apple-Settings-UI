@@ -52,9 +52,9 @@ p{
 .connectivity-and-battery{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
 }
-.wifi, .bluetooth, .network{
+.wifi, .bluetooth, .network, .battery{
     display: flex;
     gap: 15px;
     align-items: center;
@@ -78,4 +78,7 @@ p{
 }
 .icons#bluetooth, .icons#wifi{
     background-color: rgb(87, 140, 255);
+}
+.icons#battery{
+    background-color: #0eae46;
 }
