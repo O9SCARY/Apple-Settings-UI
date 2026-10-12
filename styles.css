@@ -49,12 +49,20 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-.wifi{
+.connectivity-and-battery{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wifi, .bluetooth{
     display: flex;
     gap: 15px;
 }
-.sec-wifi{
+.sec-wifi, .bluetooth-sec{
     display: flex;
     align-items: flex-end;
     gap: 150px; 
+}
+.bluetooth-sec{
+    gap: 120px;
 }
