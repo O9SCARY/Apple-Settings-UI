@@ -54,7 +54,7 @@ p{
     flex-direction: column;
     gap: 7px;
 }
-.wifi, .bluetooth, .network, .battery, .general{
+.wifi, .bluetooth, .network, .battery, .general, .accessibility, .appearance, .control-center, .siri, .privacy{
     display: flex;
     gap: 15px;
     align-items: center;
@@ -76,7 +76,7 @@ p{
 .icons#network, .icons#general{
     background-color: #B7B7B7;
 }
-.icons#bluetooth, .icons#wifi{
+.icons#bluetooth, .icons#wifi, .icons#accessibility{
     background-color: rgb(87, 140, 255);
 }
 .icons#battery{
@@ -86,4 +86,9 @@ p{
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+.general-and-accessibility{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
