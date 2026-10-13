@@ -76,7 +76,7 @@ p{
 .icons#network, .icons#general, .icons#control-center{
     background-color: #B7B7B7;
 }
-.icons#bluetooth, .icons#wifi, .icons#accessibility, .icons#appearance{
+.icons#bluetooth, .icons#wifi, .icons#accessibility, .icons#appearance, .icons#privacy{
     background-color: rgb(87, 140, 255);
 }
 .icons#battery{
