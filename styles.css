@@ -73,7 +73,7 @@ p{
     padding: 5px;
     display: flex;
 }
-.icons#network, .icons#general{
+.icons#network, .icons#general, .icons#control-center{
     background-color: #B7B7B7;
 }
 .icons#bluetooth, .icons#wifi, .icons#accessibility, .icons#appearance{
