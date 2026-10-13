@@ -18,7 +18,7 @@ p{
     background-color: rgba(222, 214, 214, 0.5);
     height: 100vh; 
     border-right: rgb(200, 200, 200) 2px solid
-    
+    Section
 }
 #search-bar{
     border-radius: 5px;
@@ -54,7 +54,7 @@ p{
     flex-direction: column;
     gap: 7px;
 }
-.wifi, .bluetooth, .network, .battery{
+.wifi, .bluetooth, .network, .battery, .general{
     display: flex;
     gap: 15px;
     align-items: center;
@@ -73,7 +73,7 @@ p{
     padding: 5px;
     display: flex;
 }
-.icons#network{
+.icons#network, .icons#general{
     background-color: #B7B7B7;
 }
 .icons#bluetooth, .icons#wifi{
@@ -81,4 +81,9 @@ p{
 }
 .icons#battery{
     background-color: #0eae46;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
