@@ -59,7 +59,8 @@ p{
 .wifi, .bluetooth, .network, .battery,
  .general, .accessibility, .appearance,
   .control-center, .siri, .privacy,
-  .desktop, .display{
+  .desktop, .display, .wallpaper, .screen-saver,
+  .notifications, .sound, .focus{
     display: flex;
     gap: 15px;
     align-items: center;
@@ -89,6 +90,9 @@ p{
 }
 .icons#battery{
     background-color: #0eae46;
+}
+.icons#wallpaper{
+    background-color: hsl(175, 50%, 55%);
 }
 .options{
     display: flex;
