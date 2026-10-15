@@ -94,6 +94,9 @@ p{
 .icons#wallpaper{
     background-color: hsl(175, 50%, 55%);
 }
+.icons#screen-saver{
+    background-color: orange;
+}
 .options{
     display: flex;
     flex-direction: column;
