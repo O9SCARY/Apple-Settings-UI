@@ -97,6 +97,9 @@ p{
 .icons#screen-saver{
     background-color: orange;
 }
+.icons#notifications{
+    background-color: hsl(0, 85%, 62%);
+}
 .options{
     display: flex;
     flex-direction: column;
