@@ -104,6 +104,9 @@ p{
 .icons#sound{
     background-color: hsl(319, 66%, 52%);
 }
+.icons#focus{
+    background-color: hsl(285, 38%, 47%);
+}
 .options{
     display: flex;
     flex-direction: column;
