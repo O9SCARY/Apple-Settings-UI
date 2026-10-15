@@ -59,7 +59,7 @@ p{
 .wifi, .bluetooth, .network, .battery,
  .general, .accessibility, .appearance,
   .control-center, .siri, .privacy,
-  .desktop{
+  .desktop, .display{
     display: flex;
     gap: 15px;
     align-items: center;
