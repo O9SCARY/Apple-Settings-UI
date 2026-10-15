@@ -15,8 +15,8 @@ p{
     gap: 15px;
     padding: 15px 10px;
     width: 250px;
-    background-color: rgba(222, 214, 214, 0.5);
-    height: 100vh; 
+    height: 100%;
+    background-color: rgba(222, 214, 214, 0.5); 
     border-right: rgb(200, 200, 200) 2px solid
     Section
 }
