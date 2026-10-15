@@ -49,12 +49,17 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-.connectivity-and-battery{
+.connectivity-and-battery,
+ .general-and-accessibility,
+ .desktop-and-display{
     display: flex;
     flex-direction: column;
     gap: 7px;
 }
-.wifi, .bluetooth, .network, .battery, .general, .accessibility, .appearance, .control-center, .siri, .privacy{
+.wifi, .bluetooth, .network, .battery,
+ .general, .accessibility, .appearance,
+  .control-center, .siri, .privacy,
+  .desktop{
     display: flex;
     gap: 15px;
     align-items: center;
@@ -73,10 +78,13 @@ p{
     padding: 5px;
     display: flex;
 }
-.icons#network, .icons#general, .icons#control-center{
+.icons#network, .icons#general,
+ .icons#control-center{
     background-color: #B7B7B7;
 }
-.icons#bluetooth, .icons#wifi, .icons#accessibility, .icons#appearance, .icons#privacy{
+.icons#bluetooth, .icons#wifi, 
+.icons#accessibility, .icons#appearance, 
+.icons#privacy, .icons#desktop{
     background-color: rgb(87, 140, 255);
 }
 .icons#battery{
@@ -86,11 +94,6 @@ p{
     display: flex;
     flex-direction: column;
     gap: 25px;
-}
-.general-and-accessibility{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 .icons#siri{
     background: linear-gradient(to top left, rgb(93, 192, 253), rgb(232, 30, 232))
