@@ -17,8 +17,7 @@ p{
     width: 250px;
     height: 100%;
     background-color: rgba(222, 214, 214, 0.5); 
-    border-right: rgb(200, 200, 200) 2px solid
-    Section
+    border-right: rgb(200, 200, 200) 1.5px solid;
 }
 #search-bar{
     border-radius: 5px;
@@ -114,4 +113,25 @@ p{
 }
 .icons#siri{
     background: linear-gradient(to top left, rgb(93, 192, 253), rgb(232, 30, 232))
+}
+.right-panel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: hsl(40, 100%, 98%);
+}
+.topname-bar{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    border-bottom: rgb(228, 228, 228) 2px solid;
+}
+#topname-bar{
+    text-align: center;
+    margin: 0;
+}
+.gen-arrows{
+    color: rgb(228, 228, 228) 2px solid;
 }
