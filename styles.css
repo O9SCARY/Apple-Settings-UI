@@ -135,3 +135,30 @@ p{
 .gen-arrows{
     color: rgb(228, 228, 228) 2px solid;
 }
+.content-box{
+    border: rgb(228, 228, 228) 2px solid;
+    background-color: white;
+    width: 65%;
+    border-radius: 12px;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    gap: 25px;
+}
+.box{
+    display: flex;
+    padding: 8px 16px;
+    border-bottom: rgb(228, 228, 228) 2px solid;
+}
+#software-update{
+    display: flex;
+    justify-content: space-between;
+}
+#img-and-abt{
+    display: flex;   
+    align-items: center;
+    gap: 12px;
+}
